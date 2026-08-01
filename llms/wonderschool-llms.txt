@@ -1,0 +1,18 @@
+# Wonderschool
+
+> Wonderschool is a child care platform that helps families find licensed care and helps providers start, operate, and grow child care programs. It also delivers software and services to government agencies (licensing, subsidy management, enrollment coordination, substitute-teacher pools) and to employers offering child care benefits. As of this writing Wonderschool does not publish a public developer API, SDKs, or webhooks; this file is generated from the API Evangelist catalog profile.
+
+## Company
+- [Website](https://www.wonderschool.com): Main site for families, providers, government, and employers.
+- [Blog](https://www.wonderschool.com/blog): Articles for families, providers, and government partners.
+- [Provider Support](https://www.wonderschool.com/corp/provider-support): Help and support for child care providers.
+- [Contact](https://www.wonderschool.com/corp/contact): Contact the company.
+
+## Trust and Legal
+- [Trust Center](https://trust.wonderschool.com/): Vanta-hosted trust portal; SOC 2 Type II, NIST Cybersecurity Framework alignment.
+- [Trust Center Overview](https://www.wonderschool.com/corp/wonderschool-trust-center): Public overview of security and compliance posture.
+- [Privacy Policy](https://www.wonderschool.com/corp/privacy)
+- [Terms](https://www.wonderschool.com/corp/terms)
+
+## Developer Surface
+- No public API, developer portal, OpenAPI specification, SDKs, or webhook catalog were found during enrichment. This is a B2B/B2G SaaS platform without a published external developer program.

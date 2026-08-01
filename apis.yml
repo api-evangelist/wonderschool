@@ -1,8 +1,26 @@
 aid: wonderschool
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wonderschool.png
 name: Wonderschool
-description: Wonderschool is a company surfaced as a portfolio company of a16z, uncork-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Wonderschool is a child care platform that connects families with licensed
+  care and equips providers with software and services to start, operate, and
+  grow their child care programs. It also serves government agencies with
+  licensing, subsidy management, enrollment coordination, and statewide
+  substitute-teacher pools, and offers employers child care benefit programs.
+  Backed by a16z and Uncork Capital, Wonderschool operates as a B2B/B2G SaaS
+  business; it publishes a Vanta-hosted trust center (SOC 2 Type II, NIST CSF)
+  but no public developer API, SDKs, or webhooks were found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/wonderschool/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Child Care
+- Early Childhood Education
+- Daycare
+- Preschool
+- Education
+- Government
+- Employer Benefits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.wonderschool.com
+- type: Blog
+  url: https://www.wonderschool.com/blog
+- type: Support
+  url: https://www.wonderschool.com/corp/provider-support
+- type: PrivacyPolicy
+  url: https://www.wonderschool.com/corp/privacy
+- type: TermsOfService
+  url: https://www.wonderschool.com/corp/terms
+- type: TrustCenter
+  url: https://trust.wonderschool.com/
+- type: Compliance
+  url: https://www.wonderschool.com/corp/wonderschool-trust-center
+- type: DomainSecurity
+  url: security/wonderschool-domain-security.yml
+- type: LLMsTxt
+  url: llms/wonderschool-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

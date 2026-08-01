@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+probe: false
+source: https://www.wonderschool.com/corp/wonderschool-trust-center
+url: https://trust.wonderschool.com/
+platform: Vanta
+certifications:
+- SOC 2 Type II
+frameworks:
+- NIST Cybersecurity Framework
+capabilities:
+- Request and review of SOC 2 Type II reports (gated portal, access request)
+- Data governance and privacy policy documentation
+- Security controls documentation
+- Third-party penetration test summaries
+evidence:
+- source: https://www.wonderschool.com/corp/wonderschool-trust-center
+  keywords:
+  - soc 2 type ii
+  - nist cybersecurity framework
+  - trust center
+- source: https://trust.wonderschool.com/
+  keywords:
+  - vanta signature manifest (trust portal served by Vanta)
+notes: >-
+  Wonderschool publishes a real, gated trust center hosted on Vanta at
+  trust.wonderschool.com. Detailed reports and policies require an access
+  request. SOC 2 Type II is the named certification; alignment to the NIST
+  Cybersecurity Framework is asserted. No ISO 27001 / PCI DSS / HIPAA /
+  FedRAMP / FERPA / COPPA badge was surfaced on the public landing page.
